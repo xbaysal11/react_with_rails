@@ -1,4 +1,3 @@
-
 <p align="center">
     <img src="https://i.postimg.cc/WzXPDsfZ/reactwithrails.png" alt="logo" width="122" height="78">
 </p>
@@ -10,17 +9,20 @@
 </p>
 
 # Requirements
-   - 1.Ruby
-   - 2.NodeJS
-   - 3.Rails
-   - 4.Bundle
+
+- 1.Ruby
+- 2.NodeJS
+- 3.Rails
+- 4.Bundle
 
 # Installation
 
 ## 1. Clone or Download repository
-[Click to Download](https://github.com/xbaysal11/reDDiv/archive/master.zip) 
+
+[Click to Download](https://github.com/xbaysal11/reDDiv/archive/master.zip)
 
 ## 2. Install packages
+
 ```
 $ cd react_with_rails
 $ npm install
@@ -28,6 +30,21 @@ $ bundle install
 ```
 
 ## 3. Start project
+
 Steps:
-   - 1.```$ rails s ```
-   - 2.Go to [http://localhost:3000/](http://localhost:3000/)
+
+- 1.`$ rails s`
+- 2.Go to [http://localhost:3000/](http://localhost:3000/)
+
+## 4. Install Spree Commerce (Optional)
+
+Steps:
+
+- 1.  Uncomment "Spree" section in Gemfile
+- 2.
+
+  ```
+   $ bundle install
+   $ rails g spree:install --user_class=Spree::User
+   $ rails g spree:install --user_class=Spree::User
+  ```
