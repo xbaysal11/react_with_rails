@@ -1,24 +1,33 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<p align="center">
+    <img src="https://i.postimg.cc/WzXPDsfZ/reactwithrails.png" alt="logo" width="122" height="78">
+</p>
 
-Things you may want to cover:
+<h3 align="center">React with Rails</h3>
 
-* Ruby version
+<p align="center">
+     Simple starter kit for working with React, Redux, Rails
+</p>
 
-* System dependencies
+# Requirements
+   - 1.Ruby
+   - 2.NodeJS
+   - 3.Rails
+   - 4.Bundle
 
-* Configuration
+# Installation
 
-* Database creation
+## 1. Clone or Download repository
+[Click to Download](https://github.com/xbaysal11/reDDiv/archive/master.zip) 
 
-* Database initialization
+## 2. Install packages
+```
+$ cd react_with_rails
+$ npm install
+$ bundle install
+```
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## 3. Start project
+Steps:
+   - 1.```$ rails s ```
+   - 2.Go to [http://localhost:3000/](http://localhost:3000/)
